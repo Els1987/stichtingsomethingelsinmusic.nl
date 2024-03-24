@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>Home</title>
+ <link rel="stylesheet" href="./stichting.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,700;1,400;1,600&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/3273d83517.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="gridcontainer">
+
+
+
+<div class="titel">
+<h1>Stichting Something</h1>
+<h1 id="els">Els</h1>
+<h1>in Music</h1>
+<br>
+<img src="./img/stichtinglang.png" alt="logostichting">
+</div>
+
+
+<div class="wat">
+<h2>Doelstelling</h2>
+<p>
+Stichting Something Els in Music zet zich in voor het bevorderen, uitvoeren en ten gehore brengen van (nieuwe) composities alsmede
+het ondersteunen van projecten van musici, waarin bij voorkeur de saxofoon een rol
+speelt.</p>
+<p>
+KVK-nummer: 65748379
+</p>
+</div>
+
+<div class="wie">
+<h2>Het bestuur</h2>
+<p>
+<b>Voorzitter</b> vacant<br>
+<b>Secretaris</b> Dennes Frikken<br>
+<b>Penningmeester</b> Pieter van der Weij
+</p>
+</div>
+
+
+<div class="archief">
+<h2>Bekijk hier de projecten van de stichting.</h2>
+
+</div>
+
+<div class="archief1">
+</div>
+
+<div class="archief2">
+</div>
+
+<div class="archief3">
+</div>
+
+<div class="bovenlaagtekst1">
+<h3>Trio Nebula</h3> 
+<h4>Op bezoek bij de sterrenwacht!</h4>
+<p id="open1">Meer weten.</p>
+</div>
+
+<div class="bovenlaagtekst2">
+<h3>Merwede Trio</h3>
+<h4>CD</h4>
+<p id="open2">Meer weten.</p>
+</div>
+
+<div class="bovenlaagtekst3">
+<h3>Trio Nebula</h3> 
+<h4>Mirage</h4>
+<p id="open3">Meer weten.</p>
+</div>
+
+
+<div class="footer">
+<p>Neem</p> <p id="contact">contact </p><p>op.</p>
+</div>
+
+</div>
+
+<div id="zie1">
+
+</div>
+
+<div id="zie2">
+
+</div>
+<div id="zie3">
+  
+</div>
+
+<div id="bovenlaagtekst4">
+    <img class="kruis" src="./img/kruisje.svg" alt="sluiten">
+    <h2>Op bezoek bij de sterrenwacht!</h2>
+    <p>Trio Nebula heeft in 2016 een tournee gehad door Nederland en wel op een heel bijzondere locatie: de sterrenwacht!<br>
+        In 9 verschillende sterrenwachten bracht het trio bijzondere muziek ten gehore. Muziek die haar inspiratie putte uit de ruimte, het heelal.<br>
+        Tussen de muziek door werd er een video afgespeeld waarin de Deense astrofysicus Anja C Andersen uitleg gaf over sterrenkundige onderwerpen en ook in gesprek ging
+        met de componist Rasmus Zwicki over de relatie tussen de muziek en de inspiratiebron sterrenkunde.
+        Al met al een heel bijzondere concert op een net zo bijzondere locatie.
+    </p>
+</div>
+
+<div id="bovenlaagtekst5">
+    <img class="kruis" src="./img/kruisje.svg" alt="sluiten">
+    <h2>CD "Un mélange de musique" van het Merwede Trio</h2>
+    <p>
+        Deze CD uit 2020 bevat een bijzondere verzameling werken voor een bijzondere bezetting gearrangeerd en/of gecomponeerd. 
+        Muziek van Monteverdi, de Machaut, Sweelinck, Berlioz, Shostakovich en Le Mair.
+    </p>
+
+    <p><a href="https://www.youtube.com/watch?v=0kBreMXU6cI">Luister</a> naar het Merwede Trio</p>
+</div>
+
+<div id="bovenlaagtekst6">
+    <img class="kruis" src="./img/kruisje.svg" alt="sluiten">  
+    <h2>Mirage</h2>
+    <p>
+    Dit project van Trio Nebula is in Nederland en Zweden uitgevoerd in 2019. Mirage of fata morgana is een luchtspiegeling. Is iets wel echt wat het lijkt?<br>
+    Dat werd muzikaal onderzocht in deze concerten.    
+    </p>
+</div>
+
+<div id="contactformulier">
+    <img class="kruis" src="./img/kruisje.svg" alt="sluiten"> 
+    
+    <div class="formulier">
+        <h2>Contactformulier</h2>
+
+<form action="send_mail.php"  
+method="POST">
+        <p>
+         <label for="verzend_naam">Naam:*</label>
+         <input type="text" id="naam" name="naam" required>
+        </p>
+     
+        <p>
+         <label for="email">E-mailadres:*</label>
+         <input type="email" id="email" name="email" required>
+        </p>
+     
+        <p>
+         <label for="tel">Telefoonnummer: </label>
+         <input type="tel" id="tel" name="tel" pattern="0\d{9}" maxlength="10">
+        </p>
+     
+        <p>
+         <label id="vraag" for="verzend_vraag">Vraag:*</label><br><br>
+         <textarea class="vraag" id="vraag" name="vraag" required>
+         </textarea>
+        </p>
+     
+        <p>
+         <label for="submit"></label>
+         <input type="submit" id="submit" name="submit" value="VERSTUUR VRAAG">
+        </p>
+       </form>
+    </div>
+</div>
+
+<div class="label">
+<p>&copy;E van der Weij 2024
+</div>
+
+<script src="./stichting.js"></script>
+</body>
+</html>
