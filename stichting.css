@@ -457,15 +457,16 @@ body, html {
 
 
 #bovenlaagtekst4, #bovenlaagtekst5, #bovenlaagtekst6{
-    border: 2px solid black;
-    background-image: linear-gradient(hsl(0, 0%, 89%, 0.85) 30%, hsl(0, 0%, 89%, 0));
-    color: black;
+    border: 2px dotted black;
+      background-color:hsl(0, 0%, 89%, 0.3);
+    /*background-image: linear-gradient(hsl(0, 0%, 89%, 0.85) 30%, hsl(0, 0%, 89%, 0));*/
+    color: white;
     z-index: 100;
     display: none;
 }
 
 #contactformulier{
-    border: 2px solid black;
+    border: 2px dotted black;
     background-color:hsl(0, 0%, 89%, 1);
     color: black;
     z-index: 100;
