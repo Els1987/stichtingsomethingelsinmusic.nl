@@ -78,7 +78,8 @@ body, html {
         z-index: 50;
         position: fixed;
         bottom: 0;
-        justify-self: center;
+        left: 50%;
+        transform: translate(-50%, 0%);
         border: 2px dotted black;
         padding-inline: 50px;
         padding-block: 10px;
