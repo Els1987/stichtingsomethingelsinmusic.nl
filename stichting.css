@@ -321,7 +321,7 @@ body, html {
     margin-inline: 8px;
     width: calc(100vw - 20px);
     top: 3%;
-    height: fit-content;
+    height: 95vh;
     }
 
     }
@@ -401,7 +401,7 @@ body, html {
         margin-inline: 18px;
         width: calc(100vw - 40px);
         top: 3%;
-        height: fit-content;
+        height: vh;
     }
 
     
