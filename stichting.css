@@ -115,8 +115,6 @@ body, html {
     #bovenlaagtekst4, #bovenlaagtekst5, #bovenlaagtekst6, #contactformulier{
       animation: fadeUnder 0.5s; 
       position: fixed;
-      top: 25.5%;
-      height: 68vh;
     }
 
 
@@ -402,6 +400,8 @@ body, html {
     #bovenlaagtekst4, #bovenlaagtekst5, #bovenlaagtekst6, #contactformulier{
         margin-inline: 18px;
         width: calc(100vw - 40px);
+        top: 3%;
+        height: fit-content;
     }
 
     
@@ -436,6 +436,14 @@ body, html {
             width: 200px;      
             margin: 5px 180px 10px 10px;
         }
+
+    #zie1, #zie2, #zie3,
+    #bovenlaagtekst4, #bovenlaagtekst5, #bovenlaagtekst6, #contactformulier{
+          top: 25.5%;
+          height: 68vh;
+    }
+
+
        
     }
 
