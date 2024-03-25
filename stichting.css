@@ -221,6 +221,8 @@ body, html {
     #bovenlaagtekst4, #bovenlaagtekst5, #bovenlaagtekst6, #contactformulier{
     margin-inline: 8px;
     width: calc(100vw - 20px);
+    top: 3%;
+    height: 95vh;
     }
 
 }
