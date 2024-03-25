@@ -209,7 +209,7 @@ body, html {
     
     .footer{
         grid-row: 8/9;  
-        padding-inline: 15px;
+        padding-inline: 10px;
     }
 
     .formulier textarea {
