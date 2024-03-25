@@ -13,6 +13,20 @@ let formulier = document.getElementById("contactformulier");
 let inhoudmail = document.getElementById("inhoudmail");
 let verzend = document.getElementById("submit");//uitzoeken hoe formulier versturen!
 
+let alltext = document.getElementsByTagName("div");
+
+
+/*lettertype aanpassen bij Safari!*/
+let browserkind = navigator.userAgent;
+let safari= browserkind.indexOf("Safari") > -1;
+
+if(safari == true){
+    for(let i=0; i < alltext.length; i++){
+    alltext[i].style.fontFamily = "Palatino";
+}
+verzend.style.fontFamily = "Palatino";
+}
+
 
 
 
