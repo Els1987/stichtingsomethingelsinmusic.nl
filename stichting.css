@@ -458,6 +458,7 @@ body, html {
     height: 250px;
        
     }
+}
 
 @media screen and (min-width: 1400px){
 .gridcontainer{
@@ -639,3 +640,6 @@ animation: fadeIn 4s;
     line-height: 0px;
     margin-left: -3px;
   }
+
+
+
