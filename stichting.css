@@ -321,7 +321,9 @@ body, html {
     margin-inline: 8px;
     width: calc(100vw - 20px);
     top: 3%;
-    height: 95vh;
+    height: 93vh;
+    font-size: 0.75em;
+    line-height: 4px;
     }
 
     }
@@ -401,7 +403,9 @@ body, html {
         margin-inline: 18px;
         width: calc(100vw - 40px);
         top: 3%;
-        height: vh;
+        height: 93vh;
+        font-size: 0.75em;
+        line-height: 4px;
     }
 
     
