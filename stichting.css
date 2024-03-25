@@ -398,6 +398,11 @@ body, html {
         grid-column: 1/5;  
     }
 
+    .formulier textarea {
+        height: 50px;
+        width: 90%;
+    }
+    
     #zie1, #zie2, #zie3,
     #bovenlaagtekst4, #bovenlaagtekst5, #bovenlaagtekst6, #contactformulier{
         margin-inline: 18px;
@@ -447,7 +452,9 @@ body, html {
           height: 68vh;
     }
 
-
+    .formulier textarea{
+    width: 80%;
+    height: 250px;
        
     }
 
@@ -514,8 +521,6 @@ body, html {
     background-color: hsl(0, 0%, 100%);
 }
 textarea{
-    width: 80%;
-    height: 250px;
     font-family: fantasy;
 }
 
