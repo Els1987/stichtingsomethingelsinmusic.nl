@@ -451,11 +451,13 @@ body, html {
     #bovenlaagtekst4, #bovenlaagtekst5, #bovenlaagtekst6, #contactformulier{
           top: 25.5%;
           height: 68vh;
+          font-size: 1em;
+          line-height: normal;
     }
 
     .formulier textarea{
     width: 80%;
-    height: 250px;
+    height: 200px;
        
     }
 }
@@ -640,6 +642,3 @@ animation: fadeIn 4s;
     line-height: 0px;
     margin-left: -3px;
   }
-
-
-
