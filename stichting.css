@@ -312,8 +312,8 @@ body, html {
 
 
     .formulier textarea {
-        height: 150px;
-        width: 400px;
+        height: 50px;
+        width: 90%;
     }
 
     #zie1, #zie2, #zie3,
