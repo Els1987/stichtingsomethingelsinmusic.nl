@@ -25,7 +25,6 @@ let safari = browserkind.indexOf("Safari") > -1;
 let uitkomst = ((os == true && safari == true) ? true : false);
 
 if(uitkomst == true){
-    alert("true");
     for(let i=0; i < alltext.length; i++){
     alltext[i].style.fontFamily = "Palatino";
     alltext[i].style.lineHeight = "25px";
