@@ -18,7 +18,7 @@ let alltext = document.getElementsByTagName("div");
 
 /*lettertype aanpassen bij Safari!*/
 let browserkind = navigator.userAgent;
-let safari= browserkind.indexOf("Safari") > -1;
+let safari= browserkind.indexOf("Safari"); // > -1;
 
 alert(safari);
 
