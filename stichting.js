@@ -18,10 +18,8 @@ let alltext = document.getElementsByTagName("div");
 
 /*lettertype aanpassen bij Safari!*/
 let browserkind = navigator.userAgent;
-//let safari= browserkind.indexOf("Safari") > -1;
+let safari= browserkind.indexOf("OS") > -1;
 
-alert(browserkind);
-/*
 if(safari == true){
     for(let i=0; i < alltext.length; i++){
     alltext[i].style.fontFamily = "Palatino";
@@ -29,12 +27,8 @@ if(safari == true){
 verzend.style.fontFamily = "Palatino";
 }
 else{
-    for(let i=0; i < alltext.length; i++){
-    alltext[i].style.fontFamily = "Fantasy";
 }
-verzend.style.fontFamily = "Fantasy";
-}
-*/
+
 
 
 
