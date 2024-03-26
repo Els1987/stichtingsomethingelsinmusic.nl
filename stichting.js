@@ -21,7 +21,7 @@ let browserkind = navigator.userAgent;
 //let safari= browserkind.indexOf("Safari") > -1;
 
 alert(browserkind);
-
+/*
 if(safari == true){
     for(let i=0; i < alltext.length; i++){
     alltext[i].style.fontFamily = "Palatino";
@@ -34,7 +34,7 @@ else{
 }
 verzend.style.fontFamily = "Fantasy";
 }
-
+*/
 
 
 
