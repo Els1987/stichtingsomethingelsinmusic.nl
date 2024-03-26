@@ -35,7 +35,7 @@ verzend.style.fontFamily = "Palatino";
 else{
         for(let i=0; i < alltext.length; i++){
     alltext[i].style.fontFamily = "Arial";
-}
+}}
 
 
 
