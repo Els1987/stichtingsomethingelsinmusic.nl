@@ -28,10 +28,13 @@ if(uitkomst == true){
     alert("true");
     for(let i=0; i < alltext.length; i++){
     alltext[i].style.fontFamily = "Palatino";
+    alltext[i].style.lineHeight = "25px";
 }
 verzend.style.fontFamily = "Palatino";
 }
 else{
+        for(let i=0; i < alltext.length; i++){
+    alltext[i].style.fontFamily = "Arial";
 }
 
 
