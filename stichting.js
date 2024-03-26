@@ -16,16 +16,15 @@ let verzend = document.getElementById("submit");//uitzoeken hoe formulier verstu
 let alltext = document.getElementsByTagName("div");
 
 
+
+
 /*lettertype aanpassen bij Safari!*/
 let browserkind = navigator.userAgent;
 let os= browserkind.indexOf("OS") > -1;
 let safari = browserkind.indexOf("Safari") > -1;
+let uitkomst = ((os == true && safari == true) ? true : false);
 
-alert(os);
-alert(safari);
-alert(browserkind);
-
-if(safari == true && os == true){
+if(uitkomst == true){
     for(let i=0; i < alltext.length; i++){
     alltext[i].style.fontFamily = "Palatino";
 }
