@@ -23,6 +23,7 @@ let safari = browserkind.indexOf("Safari") > -1;
 
 alert(os);
 alert(safari);
+alert(browserkind);
 
 if(safari == true && os == true){
     for(let i=0; i < alltext.length; i++){
