@@ -18,9 +18,10 @@ let alltext = document.getElementsByTagName("div");
 
 /*lettertype aanpassen bij Safari!*/
 let browserkind = navigator.userAgent;
-let safari= browserkind.indexOf("OS") > -1;
+let os= browserkind.indexOf("OS") > -1;
+let safari = browserkind.indexOf("Safari") > -1;
 
-if(safari == true){
+if(safari == true && os == true){
     for(let i=0; i < alltext.length; i++){
     alltext[i].style.fontFamily = "Palatino";
 }
