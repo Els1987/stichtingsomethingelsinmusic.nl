@@ -21,6 +21,9 @@ let browserkind = navigator.userAgent;
 let os= browserkind.indexOf("OS") > -1;
 let safari = browserkind.indexOf("Safari") > -1;
 
+alert(os);
+alert(safari);
+
 if(safari == true && os == true){
     for(let i=0; i < alltext.length; i++){
     alltext[i].style.fontFamily = "Palatino";
