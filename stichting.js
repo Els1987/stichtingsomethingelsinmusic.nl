@@ -26,10 +26,10 @@ let uitkomst = ((os == true && safari == true) ? true : false);
 
 if(uitkomst == true){
     for(let i=0; i < alltext.length; i++){
-    alltext[i].style.fontFamily = "Palatino";
+    alltext[i].style.fontFamily = "SmoothPapyrus";
     alltext[i].style.lineHeight = "25px";
 }
-verzend.style.fontFamily = "Palatino";
+verzend.style.fontFamily = "SmoothPapyrus";
 }
 else{
         for(let i=0; i < alltext.length; i++){
