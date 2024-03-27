@@ -1,13 +1,27 @@
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Retrieve form data
-    $name = $_POST["naam"];
-    $email = $_POST["email"];
-    $message = $_POST["vraag"];
 
-    // Display the submitted data
-    echo "Name: " . $name . "<br>";
-    echo "Email: " . $email . "<br>";
-    echo "Message: " . $message . "<br>";
-}
+
+<?php
+$name = $_POST["naam"];
+$email = $_POST["email"];
+$tel = $_POST["tel"];
+$vraag = $_POST["vraag"];
+
+use PHPMailer\PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+
+$mail = new PHPMailer (true);
+$mail -> isSMTP();
+$mail -> SMTPAuth = true;
+$mail -> Host = "smtp.gmail.com";
+$mail -> SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+$mail -> Port = 587;
+$mail -> Username = "somethingelsinmusic@gmail.com";
+$mail -> Password = "123sEim2024#";
+
+$mail -> setFrom($email, $name);
+$mail -> addAddress("somethingelsinmusic@gmail.com", "Stichting Something Els in Music");
+$mail -> Subject = "vraag";
+$mail -> Body = $vraag;
+send();
+echo "email verstuurd";
 ?>
