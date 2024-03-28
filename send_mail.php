@@ -12,10 +12,10 @@ use PHPMailer\PHPMailer\SMTP;
 $mail = new PHPMailer (true);
 $mail -> isSMTP();
 $mail -> SMTPAuth = true;
-$mail -> Host = "smtp.gmail.com";
+$mail -> Host = "smtp.mail.yahoo.com";
 $mail -> SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail -> Port = 587;
-//$mail -> Username = "somethingelsinmusic@gmail.com";
+//$mail -> Username = "stichtingcontactformulier@yahoo.com";
 //$mail -> Password = "123sEim2024#";
 
 $mail -> setFrom($email, $name);
