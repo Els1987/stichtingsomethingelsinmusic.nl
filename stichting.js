@@ -14,29 +14,26 @@ let inhoudmail = document.getElementById("inhoudmail");
 let verzend = document.getElementById("submit");//uitzoeken hoe formulier versturen!
 
 let alltext = document.getElementsByTagName("div");
+let screenwidth = screen.width;
 
 
 
+/*achtergrond aanpassen bij Safari!*/
 
-/*lettertype aanpassen bij Safari!*/
-/*
 let browserkind = navigator.userAgent;
-let os= browserkind.indexOf("OS") > -1;
+let screensize = screenwidth > 1000;
 let safari = browserkind.indexOf("Safari") > -1;
-let uitkomst = ((os == true && safari == true) ? true : false);
+let os = browserkind.indexOf("OS") > -1;
+let uitkomst = ((screensize == true && safari == true && os == true) ? true : false);
+let body = document.getElementsByTagname("body");
 
 if(uitkomst == true){
-    for(let i=0; i < alltext.length; i++){
-    alltext[i].style.fontFamily = "SmoothPapyrus";
-    alltext[i].style.lineHeight = "25px";
-}
-verzend.style.fontFamily = "SmoothPapyrus";
+    body[0].style.backgroundSize = "2%";
 }
 else{
-        for(let i=0; i < alltext.length; i++){
-    alltext[i].style.fontFamily = "Fantasy";
-}}
-*/
+}
+
+
 
 
 
