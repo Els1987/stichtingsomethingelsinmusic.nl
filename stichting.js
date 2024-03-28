@@ -19,6 +19,7 @@ let alltext = document.getElementsByTagName("div");
 
 
 /*lettertype aanpassen bij Safari!*/
+/*
 let browserkind = navigator.userAgent;
 let os= browserkind.indexOf("OS") > -1;
 let safari = browserkind.indexOf("Safari") > -1;
@@ -35,6 +36,7 @@ else{
         for(let i=0; i < alltext.length; i++){
     alltext[i].style.fontFamily = "Fantasy";
 }}
+*/
 
 
 
