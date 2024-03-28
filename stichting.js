@@ -20,18 +20,21 @@ let screenwidth = screen.width;
 
 /*achtergrond aanpassen bij Safari!*/
 
+/*lettertype aanpassen bij Safari!*/
 let browserkind = navigator.userAgent;
 let screensize = screenwidth > 1000;
 let safari = browserkind.indexOf("Safari") > -1;
 let os = browserkind.indexOf("OS") > -1;
 let uitkomst = ((screensize == true && safari == true && os == true) ? true : false);
-let body = document.getElementsByTagname("body");
+let body = document.getElementsByTagName("body");
+
 
 if(uitkomst == true){
-    body[0].style.backgroundSize = "2%";
+    body[0].style.backgroundSize = "1.1%";
 }
 else{
 }
+
 
 
 
