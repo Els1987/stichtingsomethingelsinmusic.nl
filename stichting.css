@@ -21,7 +21,7 @@ h4{
 
 body{
     color: black;
-    font-family: fantasy;
+    font-family: SmoothPapyrus;
     background-image: url(./img/stichtingmuzieknoot.png);
 }
 
@@ -531,12 +531,12 @@ body, html {
     background-color: hsl(0, 0%, 100%);
 }
 textarea{
-    font-family: fantasy;
+    font-family: SmoothPapyrus;
 }
 
 
 #submit{
-    font-family: fantasy;
+    font-family: SmoothPapyrus;
     color: white;
     background-color:  rgb(198, 18, 189);
     border-radius: 10px;
