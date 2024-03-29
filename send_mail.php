@@ -20,8 +20,8 @@ $mail -> SMTPAuth = true;
 $mail -> Host = "smtp.office365.com";
 $mail -> SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail -> Port = 587;
-//$mail -> Username = "kamehamehae@hotmail.com";
-//$mail -> Password = "raoyyrqpyiqcidbs";
+$mail -> Username = "kamehamehae@hotmail.com";
+$mail -> Password = "raoyyrqpyiqcidbs";
 
 $mail -> setFrom($email, $name);
 $mail -> addAddress("somethingelsinmusic@gmail.com", "Stichting Something Els in Music");
