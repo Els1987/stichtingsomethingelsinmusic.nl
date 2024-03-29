@@ -261,7 +261,11 @@ body, html {
         height: 30%;
         width: 30%;
     }
-    
+
+   h3{
+        margin-top: 15px;
+    }
+ 
     .wat{
         grid-row: 2/3;   
         grid-column: 2/4;
@@ -355,6 +359,10 @@ body, html {
         grid-column: 2/4;   
         padding-block: 50px 30px;
     }
+
+   h3{
+        margin-top: 5px;
+    }
     
     .wat{
         grid-column: 2/3;  
@@ -437,6 +445,10 @@ body, html {
 
         body{
             background-size: 1.2%;
+        }
+
+        h3{
+             margin-top: 25px;
         }
 
         .archief1, .bovenlaagtekst1{
