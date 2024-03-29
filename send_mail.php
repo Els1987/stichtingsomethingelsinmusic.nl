@@ -6,8 +6,9 @@ $email = $_POST["email"];
 $tel = $_POST["tel"];
 $vraag = $_POST["vraag"];
 
-use PHPMailer\PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 
 $mail = new PHPMailer (true);
 $mail -> isSMTP();
