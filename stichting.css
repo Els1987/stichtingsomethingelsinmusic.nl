@@ -153,6 +153,11 @@ body, html {
     h2{
         font-size: 1.3em;
     }
+
+  h3{
+        margin-top: 0;
+        padding-top: 0;
+    }
     
     .wat{
         grid-row: 2/3;  
