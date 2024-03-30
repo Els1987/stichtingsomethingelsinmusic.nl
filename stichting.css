@@ -93,7 +93,6 @@ body, html {
 
     .footer p{
         display: inline;
-   
     }
 
     #contact{
@@ -664,4 +663,5 @@ animation: fadeIn 4s;
     word-spacing: 0px;
     line-height: 0px;
     margin-left: -3px;
+    white-space: nowrap;
   }
