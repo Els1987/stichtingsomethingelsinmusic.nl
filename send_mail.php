@@ -10,9 +10,9 @@ require './PHPMailer/PHPMailer.php';
 require './PHPMailer/SMTP.php';
 require './PHPMailer/Exception.php';
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer;
+use PHPMailer\SMTP;
+use PHPMailer\Exception;
 
 $mail = new PHPMailer (true);
 $mail -> isSMTP();
