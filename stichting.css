@@ -95,10 +95,10 @@ body, html {
         display: inline;
     }
 
-    #contact{
+    .footer a{
         color: rgb(198, 18, 189);
         text-decoration: none;
-    
+   
     }
 
     #zie1{
